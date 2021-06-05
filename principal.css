@@ -9,6 +9,7 @@ body{
     background: linear-gradient(150deg, #ffffff,  #97e881, #96e5d4);
     background-size: 400% 300%;
     animation: BgGradient 5s ease infinite;
+    
 }
 
 @keyframes BgGradient {
