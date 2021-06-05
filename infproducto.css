@@ -63,7 +63,9 @@ nav{
     opacity: 1;
 
 }
-
+.primero{
+    display:inline-block;
+}
 aside{
     
     margin-left: 20%%;
