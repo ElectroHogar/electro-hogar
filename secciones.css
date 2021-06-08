@@ -102,8 +102,9 @@ up,p {
 .grid {
     display: flex;
     width: 100%;
+    flex-wrap: wrap; 
 }
-
+/*jean aqui arriba modifique con el flex-warp para cuando se achique la pagina*/
 .bar4x4_1 {
     flex: 5%;
     width: 190px;

@@ -94,18 +94,19 @@ aside{
     
 }
 
+.primero{
+    display: flex;
+    color: black;
+}
 .clasificacion_filtro{
-    display: block;
+    
     text-align: center;
     background-color:#213502;
     
 }
-    section{
-        color: #3a3c35;
-        margin-left:;
-    }
+ 
 .produtoanddescription{
-    display: block;
+    
     text-align: justify;
     margin-left: 20%;
     margin-top: 100px;
@@ -113,7 +114,7 @@ aside{
 .añadelo_compra>h1{
     font-weight: 200;
     text-align: center;
-    padding: 20px 0;
+    
     font-size: 30px;
 }
 .linea{
