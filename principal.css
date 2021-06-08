@@ -6,7 +6,7 @@
 
 body{
     size: 100%;
-    background: linear-gradient(150deg, #ffffff,  #97e881, #96e5d4);
+    background: linear-gradient(150deg, #ff9898,  #cdf4ff, #93a4f9);
     background-size: 400% 300%;
     animation: BgGradient 5s ease infinite;
     
@@ -42,7 +42,6 @@ body{
     padding: auto;
     padding-top: 9px;
     padding-right: 100px;
-    font-family: Helvetica;
     font-size: 12px;
     color: rgb(0, 0, 0);
 }
