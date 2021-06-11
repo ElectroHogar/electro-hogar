@@ -29,7 +29,7 @@ nav{
 
 .menu > li >a{
    
-    display: block;
+    display: flex;
     padding: 10px 20px;
     color: #fff;
     
