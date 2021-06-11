@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagen1 img{
+    border: 1px solid black;
+    margin-top: 200px;
+
+    
+}
+
+.imagen2 img{
+    width: 400px;
+    float: right;
+    margin-top: 400px;
+    margin-right:150px ;
+
+}
+ section{
+text-align: center;    
+ border-right: 5px inset ;
+ border-bottom: 5px inset;
+ display: inline-block;
+ margin-left: 600px;
+ padding: 40px;
+ margin-top: 40px;
+}
+
+.division1 h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.division2 h1 {
+    font-family: sans-serif;
+    font-size: 80px ;
+}
+
+.division3{
+    font-family: sans-serif;
+    font-size: 15px;
+}
