@@ -148,6 +148,7 @@ nav{
 /*aqui esta el css del espacio de los anunciós */
 .S-A{
     display: block;
+    margin-top: 10px;
 }
 .prueba{
     display: inline-flex;
