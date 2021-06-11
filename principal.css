@@ -104,3 +104,48 @@ body{
     height: 185px;
     
 }
+
+.monsa {
+
+background-color: #FFFFFF;
+
+    height: 120px;
+    width: 100%;
+
+}
+
+.certus { 
+
+background-color: #000000;
+
+color: #FFFFFF;    
+text-align: center;
+    padding-top: 5px ;
+    height: 30px;
+    width: 100%;
+
+}
+
+.info-contacto {
+    color: #000;
+
+    font-size: 15px;
+    font-family: Helvetica;
+
+text-align: center;
+    padding-top: 10px;   
+
+}
+
+.botoncontactanos {
+    
+    font-family: Helvetica;
+    text-align: center;  
+    
+ height: 20px;
+ width: 100%;  
+    
+    padding: auto;
+ padding-top: 10px;   
+
+}
