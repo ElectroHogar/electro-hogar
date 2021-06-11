@@ -71,7 +71,7 @@ p {
     text-align: right;
 }
 
-ul {
+.contenedor ul {
     flex: 50%;
     list-style: none;
     padding-left: 10px;
@@ -160,6 +160,14 @@ up,p {
     margin-bottom: 5px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.contenedor2 ul {
+    flex: 50%;
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 6s infinite;
+    text-align: left;
 }
 
 .favimg1 {
