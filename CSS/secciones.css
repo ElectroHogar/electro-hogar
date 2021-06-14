@@ -296,4 +296,37 @@ up,p {
     padding: auto;
     padding-right: 18%;
     
-  }
+}
+
+
+aside{
+    
+    margin-left: 1%;
+    position: relative;
+    list-style: none;
+    width: 155px;
+    background-color: #24ae63
+}
+.clasificacion_filtro {
+    background-color: #18683c;
+}
+
+.tabla_filtro  li{
+    position: relative;
+    list-style: none;
+    
+}
+.tabla_filtro > li {
+    display: block;
+    
+    color: #fff;
+    
+    font-size: small;
+    text-decoration: none;
+    
+}
+.tabla_filtro li label:hover{
+    color: #213502;
+    transition: all .3s;
+    
+}
