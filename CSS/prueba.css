@@ -1,99 +1,30 @@
+.css
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
-body{
-    font-family: 'Baloo Tammudu 2', cursive;
+
+.imagen_LG img{
+    width: 400px;
+    margin-left: 800px;
 }
-nav{
-    margin-top: 10px;  
-}
-.navegacion{
-    
-    display: flex;
-    margin: 10px auto;
-    background:#24ae63;
+.division_imagen_LG{
+    border:  1px solid black;
+    display: inline;
     text-align: center;
+    font-family: sans-serif;
     
-    
+}
+.division_lavanderia_LG h1{
+    margin-right:250px;
 }
 
-.menu {
-    
-    flex: 60%;
-    padding: auto;
-    padding-top: 55px;
-    padding-right: 60px;
+.division_imagen_LG h2{
+    margin-right: 10px;
 }
-.navegacion ul{
-    list-style: none;
+.division_imagen_LG p{
+    margin-right: 100px;
     
 
-}
-.menu > li{
-    position: relative;
-    display: inline-block;
-}
-
-.menu > li >a{
-   
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    
-    text-decoration: none;
-}
-
-.menu li a:hover{
-    color: #18683c;
-    transition: all .3s;
-
-}
-.submenu{
-    position: absolute;
-    background: #509221;
-    width: 200%;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1.3s;
-}
-
-.submenu li a{
-    display: block;
-    padding: 15px;
-    color: #ffffff;
-    
-    text-decoration: none;
-}
-.menu li:hover .submenu{
-    display: block;
-    visibility: visible;
-    opacity: 1;
-
-}
-
-.logo-texto{
-    flex: 20%;
-    padding-left: 30px;
-    padding-top: 10px;
-    text-align: left;
-}
-
-.carrito{
-    flex: 5%;
-    height: 70px;
-    width: 175px;
-    margin-top: 40px;
-    margin-left: 0px;
-    margin-right: 65px;
-    padding-top: 10px;
-    padding-left: 8px;
-    padding-right: 10px;
-    border: 0.2em;
-    border-style: solid;
-    border-color: #FFFFFF;
-    color: #000000;
-    font-family: Helvetica;
-    font-size: small;
 }
