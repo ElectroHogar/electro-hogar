@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+,cuerpo{
+    display: flex;
+    flex-warp: warp;
+    background-color: black;
+    
+    width: 100%;
+}
+.bloque1{
+height: 400px;
+background-color: blue;
+}
+
+.bloque2{
+background-color: cadetblue ;
+}
+
+.bloque3{
+background-color: crimson;
+}
