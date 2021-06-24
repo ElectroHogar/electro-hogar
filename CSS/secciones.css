@@ -299,4 +299,9 @@ up,p {
   }
 
   /*secion de productos*/
-  
+  .tb_cap{
+      display: flex;
+      flex-wrap: wrap;
+      border: black;
+      border-color: black;
+  }
