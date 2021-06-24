@@ -1,3 +1,5 @@
+
+
 .slyder{
     width: 95%;
     margin: auto;
@@ -300,27 +302,30 @@ up,p {
 
   /*secion de productos*/
 
-.tb_cap{
+#tb_cap{
       display: flex;
       flex-wrap: wrap;
       border-style: solid;
       border-width: 2px;
       border-color: black;
-      width: 100px;
-    margin: auto;
-}
+      width: 300px;
+      margin: auto;
 }
 
-.domicilio{
+
+#domicilio{
     border: 5px solid green;
-    display: inline-block;
+    display: flex;
+    width: 95%;
 }
 
-.retiro{
+#retiro{
     border: 5px solid red;
-    display: inline-block;
+    display: flex;
+    width: 95%;
 }
-.stock{
+#stock{
     border: 5px solid red;
-    display: inline-block;
+    display: flex;
+    width: 95%;
 }
