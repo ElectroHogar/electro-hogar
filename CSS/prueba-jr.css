@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.nav_ventanas {
+    margin-top: 1rem;
+}
+
+#contenedor_FT {
+    margin-left: 14%;
+    margin-right: 1%;
+
+    background-color: #fff;
+}
+
+#nav_ventanas_menu {
+    display: flex;
+}
+
+#nav_ventanas_menu p {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+#tablafichat {
+    width: 85%;
+    height: 450px;
+    border-collapse: collapse;
+
+    font-size: 13px;
+}
+
+#tablafichat_carac, #tablafichat_carac_desc1,
+#tablafichat_esp, #tablafichat_esp_desc2,
+#tablafichat_list, #tablafichat_list_desc3 {
+    border: 3px solid #BFBEBB;
+
+}
+
+#tablafichat_carac_desc1, #tablafichat_esp_desc2, 
+#tablafichat_list_desc3 {
+    padding-left: 4%;
+    width: 700px;
+}
+
+#contenedor_tec {
+    margin-left: 19%;
+    margin-right: 1%;
+
+    background-color: #fff;
+}
+
+#contenedor_tec_sup {
+    display: flex;
+}
+
+#contenedor_tec_sup_texto {
+    padding-left: 10px;
+}
+#contenedor_tec_cent {
+    display: flex;
+}
+
+#contenedor_tec_cent_1, #contenedor_tec_cent_2, 
+#contenedor_tec_cent_3 {
+    padding: 0;
+    margin: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+    text-align: center;
+}
+
+[data-content] {
+    display: none;
+}
+
+.active[data-content] {
+    display: block;
+}
