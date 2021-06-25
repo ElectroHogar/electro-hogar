@@ -302,6 +302,13 @@ up,p {
 
   /*secion de productos*/
 
+#tabladecap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 #tb_cap{
       display: flex;
       flex-wrap: wrap;
@@ -309,7 +316,9 @@ up,p {
       border-width: 2px;
       border-color: black;
       width: 300px;
+      height: min-content;
       margin: auto;
+      padding-left: 5px;
 }
 
 
@@ -317,15 +326,29 @@ up,p {
     border: 5px solid green;
     display: flex;
     width: 95%;
+    height: min-content;
+    
 }
 
 #retiro{
     border: 5px solid red;
     display: flex;
     width: 95%;
+    height: min-content;
+    
 }
 #stock{
     border: 5px solid red;
     display: flex;
     width: 95%;
+    height: min-content;
+    
+}
+#tr_cond{
+    display: inline;
+    margin:auto;
+}
+#tr_cond < a{
+    color: red;
+    
 }
