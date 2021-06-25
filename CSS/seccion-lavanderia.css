@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* AQUÍ SE EJECUTA EL ESTILO DE EL ASIDE*/
+.primero{
+  display:inline-block;
+}
+aside{
+  
+  margin-left: 1%;
+  position: relative;
+  list-style: none;
+  width: 155px;
+  background-color: #24ae63
+}
+
+.tabla_filtro  li{
+  position: relative;
+  list-style: none;
+}
+.tabla_filtro > li {
+  display: block;
+
+  color: #fff;
+  
+  font-size: small;
+  text-decoration: none;
+  
+}
+.tabla_filtro li label:hover{
+  color: #18683c;
+  transition: all .3s;
+  
+}
+
+.primero{
+  display: flex;
+  color: black;
+}
+.clasificacion_filtro{
+  
+  text-align: center;
+  background-color:#18683c;
+  
+}
+
