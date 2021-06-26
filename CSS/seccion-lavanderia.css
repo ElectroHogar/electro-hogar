@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+/*AQUÍ SE EJECUTA EL ESTILO DEL TITULO DE LA SECCIÓN*/
+#titulo_lavan {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 9px;
+
+  background-color: #fff;
+}
+
+
+#titulo_lavan h1 {
+  text-align: center;
+}
+
 
 /* AQUÍ SE EJECUTA EL ESTILO DE EL ASIDE*/
 .primero{
@@ -48,3 +62,73 @@ aside{
   
 }
 
+/*AQUI SE EJECUTA ESTILO DE MAIN*/
+#main-lavan {
+  margin: 0;
+  padding: 0;
+}
+
+.main-lavan-prodc-img {
+  margin: 0;
+  padding: 0;
+
+
+  margin-left: 17%;
+}
+
+#main-lavan-prodc1-2 {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+#main-lavan-prodc3-4 {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+.prdNuno, .prdNdos, .prdNtres, .prdNcuatro {
+  
+  margin: 1%;
+  padding: 10px;
+
+  width: 400px;
+  height: 400px;
+
+ background-color: #fff;
+}
+
+
+/*aqui esta el css del espacio de los anunciós */
+.S-A{
+  display: block;
+  margin-top: 10px;
+}
+.prueba{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+.laundry{
+  margin: auto;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: auto;
+  padding-left: 10px;
+  text-align: justify;
+}
+.pag{
+  width: 150px;
+  height: 185px;
+  
+}
+
+.laundry > img{
+  max-width: 100%;
+  height: auto;
+}

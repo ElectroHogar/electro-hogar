@@ -352,3 +352,34 @@ up,p {
     color: red;
     
 }
+
+/*aqui esta el css del espacio de los anunciós */
+.S-A{
+    display: block;
+    margin-top: 10px;
+}
+.prueba{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.laundry{
+    margin: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: auto;
+    padding-left: 10px;
+    text-align: justify;
+}
+.pag{
+    width: 150px;
+    height: 185px;
+    
+}
+
+.laundry > img{
+    max-width: 100%;
+    height: auto;
+}
