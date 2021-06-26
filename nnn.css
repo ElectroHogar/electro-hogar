@@ -1,0 +1,68 @@
+
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.division_imagen{
+    text-align: center;
+}
+
+.division_parrafo1{
+    text-align: center;
+    font-size:30px;
+}
+.division_parrafo2{
+    margin-top: 30px;
+    margin-right: 400px;
+    margin-left: 310px;
+}
+
+.rojo{
+    color: red;
+    font-size: 25px;
+}
+.division_parrafo2 b {
+    font-size: 20px;
+    font-weight: 4px;
+}
+
+.inicio{
+    margin-right: 300px;
+    margin-left: 310px;
+}
+
+.lavadora{
+    font-size: 20px;
+}
+.modelo{
+    font-size: 20px;
+}
+.inicio h4{
+    font-size: 20px;
+}
+.division_general{
+    text-align: center;
+    margin-top: 40%;
+   
+   
+}
+
+.boton_1{
+    border: 3px inset black;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.boton_1:hover{
+    background: rgb(188, 192, 194);
+}
+
+
+.boton_2{
+    border: 3px inset black;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.boton_2:hover{
+    background: rgb(188, 192, 194);
+}
