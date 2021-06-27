@@ -61,8 +61,65 @@ aside{
   background-color:#18683c;
   
 }
+/*AQUÍ SE EJECUTA EL GRIDCONTAINER*/
+
+html { 
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+.dtop1 {
+  grid-area: dtop1;
+}
+
+#titulo_lavan {
+  grid-area: titulo_lavan;
+}
+
+#aside_lavand {
+  grid-area: aside_lavand;
+}
+
+#main-lavan {
+  grid-area: main-lavan;
+}
+
+.S-A {
+  grid-area: S-A;
+}
+
+#footer_lavan {
+  grid-area: footer_lavan;
+}
 
 /*AQUI SE EJECUTA ESTILO DE MAIN*/
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  "dtop1"
+  "titulo_lavan"
+  "aside_lavand"
+  "main-lavan"
+  "S-A"
+  "footer_lavan";
+
+}
+
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: 200px auto;
+    grid-template-areas:
+    "dtop1 dtop1"
+    "titulo_lavan titulo_lavan"
+    "aside_lavand main-lavan"
+    "S-A S-A"
+    "footer_lavan footer_lavan";
+  }
+}
+
 #main-lavan {
   margin: 0;
   padding: 0;
