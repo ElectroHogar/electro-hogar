@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .slyder{
     width: 95%;
@@ -348,7 +351,7 @@ up,p {
     display: inline;
     margin:auto;
 }
-#tr_cond < a{
+#tr_cond > a{
     color: red;
     
 }
