@@ -4,28 +4,32 @@
 }
 body{
     font-family: 'Baloo Tammudu 2', cursive;
+    
 }
 
-/*comandos del aside*/
+/*section{
+    padding-left: 10%;
+    padding-right: 10%;
+}*/
+
+/* AQUÍ SE EJECUTA EL ESTILO DE EL ASIDE*/
 aside{
-    background-color: #24ae63;
-    margin-left: 1%;
-    position: relative;
-    list-style: none;
-    width: 155px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid #fff;
+    margin-left: 10%;
+  position: relative;
+  list-style: none;
+  width: 379px;
+  background-color: #24ae63;
+  
+  
 }
 .tabla_filtro  li{
     position: relative;
     list-style: none;
+    width: 379px;
 }
 .tabla_filtro > li {
     display: block;
-  
+    
     color: #fff;
     
     font-size: small;
@@ -35,7 +39,7 @@ aside{
 .tabla_filtro li label:hover{
     color: #18683c;
     transition: all .3s;
-    
+    padding-right: 10%;
 }
   
 .primero{
@@ -50,6 +54,7 @@ aside{
 }
 
 /*producto*/
+
 
 
 /*ofertas personalizadas*/
