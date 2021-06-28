@@ -12,6 +12,12 @@ body{
     padding-right: 10%;
 }*/
 
+.primerbloque{
+    display: flex;
+    flex-wrap:wrap;
+
+}
+
 /* AQUÍ SE EJECUTA EL ESTILO DE EL ASIDE*/
 aside{
     margin-left: 10%;
@@ -55,6 +61,69 @@ aside{
 
 /*producto*/
 
+.produtoanddescription{
+    margin: 10px;
+    display: block;
+    margin-left: 10%;
+}
+
+/*primera parte*/
+
+
+/*segunda parte */
+#tabladecap{
+    display: block;
+    
+}
+
+#tb_cap{
+      display: flex;
+      flex-wrap: wrap;
+      border-style: solid;
+      border-width: 2px;
+      border-color: rgb(134, 130, 130);
+      width: 300px;
+      height: min-content;
+      padding-bottom: 2px;
+      padding-left: 5px;
+      background-color: rgba(255, 255, 240, 0.438);
+}
+
+
+#domicilio{
+    border-left: 5px solid green;
+    background-color: yellowgreen;
+    display: flex;
+    width: 95%;
+    height: min-content;
+    margin-bottom: 2px;
+    
+}
+
+#retiro{
+    border-left: 5px solid red;
+    background-color: tomato;
+    display: flex;
+    width: 95%;
+    height: min-content;
+    margin-bottom: 2px;
+}
+#stock{
+    border-left: 5px solid red;
+    background-color: tomato;
+    display: flex;
+    width: 95%;
+    height: min-content;
+    
+}
+#tr_cond{
+    display: inline;
+    margin:auto;
+}
+#tr_cond > a{
+    color: red;
+    
+}
 
 
 /*ofertas personalizadas*/
@@ -259,6 +328,7 @@ up,p {
 
 .nav_ventanas {
     margin-top: 1rem;
+    
 }
   
 #contenedor_FT {
@@ -281,7 +351,7 @@ up,p {
     width: 85%;
     height: 450px;
     border-collapse: collapse;
-  
+    margin-left: 9%;
     font-size: 13px;
 }
   
@@ -299,7 +369,7 @@ up,p {
 }
   
 #contenedor_tec {
-    margin-left: 19%;
+    margin-left: 14%;
     margin-right: 1%;
   
     background-color: #fff;
