@@ -15,11 +15,21 @@
 }
 .division_imagen_LG{
     margin-right: 50%;
-    
+    margin-left: 50%;
 }
 
 .imagen_SAMSUNG img{
     width: 100%;
+    margin-left: 50%;
+}
+.division_imagen_SAMSUNG{
+    border: 10px;
+    display: 100px;
+    text-decoration: center gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.division_imagen_SAMSUNG{
+    margin-right: 50%;
     margin-left: 50%;
 }
 
