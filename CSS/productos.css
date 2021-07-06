@@ -387,11 +387,11 @@ up,p {
   
 #contenedor_tec {
     padding: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    align-items: center;
     padding-bottom: 10px;
     background-color: #fff;
     margin-bottom: 30px;
+    align-items: center;
 }
 
 #contenedor_tec p{
@@ -403,6 +403,14 @@ up,p {
 
 #contenedor_tec_sup {
     display: flex;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#contenedor_tec_cent {
+    display: flex;
+    align-items: center;
+    
 }
   
 #contenedor_tec_sup_texto {
@@ -411,7 +419,11 @@ up,p {
 #contenedor_tec_cent {
     display: flex;
 }
-  
+/*para combiar por una imgen*/
+#contenedor_tec_sup_boton{
+    border-radius: 30%;
+}
+
 #contenedor_tec_cent_1, #contenedor_tec_cent_2, 
 #contenedor_tec_cent_3 {
     padding: 0;
