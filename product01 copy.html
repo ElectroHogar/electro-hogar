@@ -10,9 +10,9 @@
     <link rel="shortcut icon" href="../JeanJaramillo-github.io/IMG/icono_del_navegador.png"/>
     
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
-    <!--<link rel="stylesheet" href="CSS/product01.css">
+    <!--<link rel="stylesheet" href="CSS/product01.css">-->
 
-    <script src="JS/product01.js" defer></script>-->
+    <script src="JS/product01.js" defer></script>
     <link rel="stylesheet" href="../CSS/productos.css">
 </head>
 <body>
@@ -204,15 +204,17 @@
 </section>
 
 <section class="nave_tabs">
-  <div id="nav_ventanas_menu">
-    <p data-target="#contenedor_FT">Ficha Técnica</p>
-    <p data-target="#contenedor_tec">Descripción</p>
-  </div>
+  
   <div class="nav_ventanas">
+      <div id="nav_ventanas_menu">
+      <button class="fi-des" data-target="#contenedor_FT">Ficha Técnica</button>
+      <button class="fi-des" data-target="#contenedor_tec">Descripción</button>
+      </div>
       <div data-content id="contenedor_FT" class="active">
         <h1>Ficha Técnica</h1>
         <br>
         <table id="tablafichat">
+          </tr>
             <tr>
                 <th id="tablafichat_carac">CARACTERÍSTICAS</th>
                 <td id="tablafichat_carac_desc1">SensorDry <br><br>
@@ -237,6 +239,7 @@
                 Tipo de secadora <br>
                 Ventilación
                 </td>
+                
             </tr>
             <tr>
             <th id="tablafichat_list">LISTA DE OPCIONES</th>
@@ -270,9 +273,10 @@
             </div>
         </div>
         <div id="contenedor_tec_fin">
-            <p id="contenedor_tec_fin_texto">La tecnología Air Wash desodoriza y desinfecta tus prendas <br>
-                para que siempre estén frescas y limpias. Mediante aire caliente, <br>
-                remueve malos olores sin necesidad de agua o productos químicos.</p>
+            <p id="contenedor_tec_fin_texto">
+              La tecnología Air Wash desodoriza y desinfecta tus prendas 
+              para que siempre estén frescas y limpias. Mediante aire caliente, 
+              remueve malos olores sin necesidad de agua o productos químicos.</p>
         </div>
       </div>
   </div>
