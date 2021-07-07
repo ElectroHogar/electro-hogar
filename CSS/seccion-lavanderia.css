@@ -1,8 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 
 /*AQUÍ SE EJECUTA EL ESTILO DEL TITULO DE LA SECCIÓN*/
 #titulo_lavan {
@@ -73,14 +69,6 @@ aside{
   
 }
 /*AQUÍ SE EJECUTA EL GRIDCONTAINER*/
-
-html { 
-  height: 100%;
-}
-
-body {
-  min-height: 100%;
-}
 
 .dtop1 {
   grid-area: dtop1;
