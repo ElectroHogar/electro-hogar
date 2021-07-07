@@ -45,17 +45,14 @@ aside{
 
 .tabla_filtro > li {
   display: block;
-
   color: #fff;
-  
   font-size: small;
   text-decoration: none;
-  
 }
+
 .tabla_filtro li label:hover{
   color: #18683c;
   transition: all .3s;
-  
 }
 
 .primero{

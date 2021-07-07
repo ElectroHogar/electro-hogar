@@ -35,10 +35,8 @@ body{
 .cabecera-izq{
     flex: 10%;
     height: 30px;
-    padding-top: 3px;
-    padding-left: 30PX;
-    border: #000 solid 1px;
-
+    padding-top: 5px;
+    padding-left: 30px;
  }
 .cabecera-centro{
     flex: 30%;
@@ -46,14 +44,11 @@ body{
     width: 300px;
 
     padding: 0;
-    padding-top: 3px;
-
+    padding-top: 7px;
 
     font-size: 12px;
-    
+    text-align: center;
     color: #000;
-
-    border: #000 solid 1px;
 }
 .cabecera-der{
     flex: 60%;
@@ -65,8 +60,7 @@ body{
     padding-left: 60px;
     padding-bottom: 0;
 
-    text-align: center;   
-    border: #000 solid 1px;
+    text-align: center;
 }
 nav{
     margin-top: 10px;  
@@ -159,10 +153,7 @@ nav{
     font-size: small;
 }
 
-
-
-
- /*victor*/
+/*victor*/
 .monsa {
 
 background-color: #FFFFFF;

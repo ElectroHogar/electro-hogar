@@ -55,6 +55,11 @@
     overflow: hidden;
 }
 
+.contenedor p {
+    flex: 50%;
+    text-align: right;
+}
+
 .contenedor2 {
 
     display: flex;
@@ -71,7 +76,7 @@
     overflow: hidden;
 }
 
-p {
+.contenedor2 p {
     flex: 50%;
     text-align: right;
 }
@@ -82,6 +87,7 @@ p {
     padding-left: 10px;
     animation: cambiar 6s infinite;
     text-align: left;
+    border: #000 solid 1px;
 }
 
 up,p {      
