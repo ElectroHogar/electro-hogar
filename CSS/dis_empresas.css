@@ -4,3 +4,41 @@
     box-sizing: border-box;
 }
 
+.empresas{
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+.empresas  p {
+    text-align: justify;
+}
+.empresas  h2{
+    text-align: center;
+}
+
+.opiniones textarea{
+    width: auto;
+    
+}
+
+.multimedia {
+    border-bottom: 5px solid #666;
+    align-items: center;
+}
+
+.sugerencia li{
+    padding-bottom: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.opiniones{
+    border-top: 5px solid #666;
+}
