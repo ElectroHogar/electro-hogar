@@ -30,7 +30,6 @@ body{
 
 .produtoanddescription__img-info {
   display: flex;
-
   width: 100%;
   height: 650px;
 
@@ -84,6 +83,13 @@ body{
 .produtoanddescription__img-info__info__caracteristicas h3 {
   color: #000;
 
+  font-size: 25px;
+}
+
+.produtoanddescription__img-info__info__caracteristicas h2 {
+  color: #000;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 25px;
 }
 
@@ -162,27 +168,35 @@ body{
   padding-left: 2%;
 }
 
+/*LO QUIERO*/
+
+.accion-compra {
+  padding: 0;
+  padding-left: 39%;
+  padding-right: 37%;
+}
+
+.accion-compra button {
+  padding: 15px;
+  display:flex;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 6px;
+  border: 2px solid #0016b0;
+}
+
+.accion-compra button:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+.accion-comrpa a {
+  text-decoration: none;
+}
+
 /*ofertas personalizadas*/
-.contenedor {
-
-  display: flex;
-  width: 98%;
-  height: 25px;
-  color: #fff;
-  font-size: 25px;
-  line-height: 25px;
-  text-align: center;
-  margin: auto;
-  margin-top: 0;
-  background-color: rgb(152, 152, 152);
-
-  overflow: hidden;
-}
-
-.contenedor p {
-  flex: 50%;
-  text-align: right;
-}
 
 .contenedor2 {
 
@@ -194,9 +208,9 @@ body{
   line-height: 25px;
   text-align: center;
   margin: auto;
-  margin-top: 0;
+  margin-top: 20px;
   background-color: rgb(133, 122, 255);
-
+  padding-top: 6px;
   overflow: hidden;
 }
 
@@ -419,6 +433,9 @@ up,p {
 
 }
 
+#contenedor_FT {
+  border: #000 solid 1px;
+}
 
 #tablafichat {
   width: 85%;
@@ -449,6 +466,11 @@ up,p {
   background-color: #fff;
   margin-bottom: 30px;
   align-items: center;
+  border: #000 solid 1px;
+}
+
+#contenedor_tec h1 {
+  text-align: center;
 }
 
 #contenedor_tec p{
@@ -461,13 +483,12 @@ up,p {
 #contenedor_tec_sup {
   display: flex;
   align-items: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 10%;
 }
 #contenedor_tec_cent {
   display: flex;
   align-items: center;
-  
+  padding-left: 20%;
 }
 
 #contenedor_tec_sup_texto {
@@ -476,10 +497,7 @@ up,p {
 #contenedor_tec_cent {
   display: flex;
 }
-/*para combiar por una imgen*/
-#contenedor_tec_sup_boton{
-  border-radius: 30%;
-}
+
 
 #contenedor_tec_cent_1, #contenedor_tec_cent_2, 
 #contenedor_tec_cent_3 {
@@ -487,7 +505,12 @@ up,p {
   margin: 0;
   margin-top: 2%;
   margin-bottom: 2%;
+  padding-left: 7%;
   
+  text-align: center;
+}
+
+#contenedor_tec_fin p {
   text-align: center;
 }
 
