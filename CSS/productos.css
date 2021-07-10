@@ -19,7 +19,7 @@ body{
 }
 
 /* AQUÍ SE EJECUTA EL ESTILO DE EL ASIDE*/
-aside{
+/*aside{
     margin-left: 10%;
   position: relative;
   list-style: none;
@@ -57,7 +57,61 @@ aside{
     text-align: center;
     background-color:#18683c;
     
-}
+}*/
+.primero{
+    display:inline-block;
+  }
+  aside{
+    
+    margin-left: 1%;
+    position: relative;
+    list-style: none;
+  
+    width: 230px;
+    height: 305px;
+  
+    background-color: #24ae63
+  }
+  
+  .tabla_filtro  li{
+    position: relative;
+    list-style: none;
+  
+  }
+  
+  .filtro li {
+    padding: 3%;
+  
+    font-size: 16px;
+  }
+  
+  .tabla_filtro > li {
+    display: block;
+    color: #fff;
+    font-size: small;
+    text-decoration: none;
+  }
+  
+  .tabla_filtro li label:hover{
+    color: #18683c;
+    transition: all .3s;
+  }
+  
+  .primero{
+    display: flex;
+    color: black;
+  }
+  .clasificacion_filtro{
+    
+    width: 100%;
+    height: 25px;
+  
+    text-align: center;
+    background-color:#18683c;
+    background-color:#22844e;
+    color: #fff;
+    
+  }
 
 /*producto*/
 
