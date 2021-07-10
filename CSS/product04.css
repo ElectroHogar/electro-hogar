@@ -1,0 +1,404 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Baloo Tammudu 2', cursive;
+  
+}
+
+
+
+.primerbloque{
+  display: flex;
+  flex-wrap:wrap;
+
+}
+
+/*producto*/
+
+.produtoanddescription{
+  margin: 10px;
+  display: block;
+  margin-left: 10%;
+}
+
+/*primera parte*/
+
+.produtoanddescription__img-info {
+  display: flex;
+  border: #000 solid 1px;
+}
+
+/*segunda parte */
+#tabladecap{
+  display: block;
+  
+}
+
+#tb_cap{
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(134, 130, 130);
+    width: 300px;
+    height: min-content;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    background-color: rgba(255, 255, 240, 0.438);
+}
+
+
+#domicilio{
+  border-left: 5px solid green;
+  background-color: yellowgreen;
+  display: flex;
+  width: 95%;
+  height: min-content;
+  margin-bottom: 2px;
+  
+}
+
+#retiro{
+  border-left: 5px solid red;
+  background-color: tomato;
+  display: flex;
+  width: 95%;
+  height: min-content;
+  margin-bottom: 2px;
+}
+#stock{
+  border-left: 5px solid red;
+  background-color: tomato;
+  display: flex;
+  width: 95%;
+  height: min-content;
+  
+}
+#tr_cond{
+  display: inline;
+  margin:auto;
+}
+#tr_cond > a{
+  color: red;
+  
+}
+
+
+/*ofertas personalizadas*/
+.contenedor2 {
+
+  display: flex;
+  width: 98%;
+  height: 25px;
+  color: #fff;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+  background-color: rgb(133, 122, 255);
+
+  overflow: hidden;
+}
+
+p {
+  flex: 50%;
+  text-align: right;
+}
+
+.contenedor ul {
+  flex: 50%;
+  list-style: none;
+  padding-left: 10px;
+  animation: cambiar 6s infinite;
+  text-align: left;
+}
+
+up,p {      
+  margin: 0;
+}
+
+@keyframes cambiar {
+  0% { margin-top:0;}
+  15% {margin-top:0;}
+
+  20% {margin-top: -25px;}
+  45% {margin-top: -25px;}
+
+  50% {margin-top: -50px;}
+  75% {margin-top: -50px;}
+  
+  80% {margin-top: -25px;}
+  95% {margin-top: -25px;}
+
+  100% {margin-top: 0px;}
+}
+
+.grid {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap; 
+}
+/*jean aqui arriba modifique con el flex-warp para cuando se achique la pagina*/
+.bar4x4_1 {
+  flex: 5%;
+  width: 190px;
+  height: 170px;
+  
+  background-color: #ffffff;
+
+  display: flex;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bar4x4_2 {
+  flex: 5%;
+  width: 190px;
+  height: 170px;
+  background-color: #ffffff;
+
+  display: flex;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bar4x4_3 {
+  flex: 5%;
+  width: 190px;
+  height: 170px;
+  background-color: #ffffff;
+
+  display: flex;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bar4x4_4 {
+  flex: 5%;
+  width: 190px;
+  height: 170px;
+  background-color: #ffffff;
+
+  display: flex;
+  
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.contenedor2 ul {
+  flex: 50%;
+  list-style: none;
+  padding-left: 10px;
+  animation: cambiar 6s infinite;
+  text-align: left;
+}
+
+.favimg1 {
+
+  width: 165px;
+
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.textin1 {
+  height: 170px;
+  width: 145px;
+  font-size: 13px;
+  font-family: Helvetica;
+
+  padding-top: 60px;
+  padding-right: 30px;
+
+}
+
+.favimg2 {
+
+  width: 165px;
+
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.textin2 {
+  height: 170px;
+  width: 145px;
+  font-size: 13px;
+  font-family: Helvetica;
+
+  padding-top: 60px;
+  padding-right: 30px;
+
+}
+
+.favimg3 {
+
+  width: 165px;
+
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.textin3 {
+  height: 170px;
+  width: 145px;
+  font-size: 13px;
+  font-family: Helvetica;
+
+  padding-top: 60px;
+  padding-right: 30px;
+
+}
+
+.favimg4 {
+  
+  width: 165px;
+
+  padding-top: 15px;
+  padding-left: 5px;
+
+}
+
+.textin4 {
+  height: 170px;
+  width: 145px;
+  font-size: 13px;
+  font-family: Helvetica;
+
+  padding-top: 60px;
+  padding-right: 30px;
+
+}
+
+/*  AQUÍ SE EJECUTA EL ESTILO DE FICHA TECNICA Y TECNOLOGIA */
+
+.nav_ventanas {
+  margin-top: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#contenedor_FT {
+  
+  margin-bottom: 5px;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+#contenedor_FT > h1 {
+  text-align: center
+}
+
+#nav_ventanas_menu {
+  display: inline-flex;
+  height: min-content;
+  
+  margin-left: 10px;
+}
+#nav_ventanas_menu button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 2rem;
+  cursor: pointer;
+
+}
+
+
+#tablafichat {
+  width: 85%;
+  height: 450px;
+  border-collapse: collapse;
+  margin-left: 9%;
+  font-size: 13px;
+  
+}
+
+#tablafichat_carac, #tablafichat_carac_desc1,
+#tablafichat_esp, #tablafichat_esp_desc2,
+#tablafichat_list, #tablafichat_list_desc3 {
+  border: 3px solid #BFBEBB;
+
+}
+
+#tablafichat_carac_desc1, #tablafichat_esp_desc2, 
+#tablafichat_list_desc3 {
+  padding-left: 4%;
+  width: 700px;
+}
+
+#contenedor_tec {
+  padding: auto;
+  align-items: center;
+  padding-bottom: 10px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+#contenedor_tec p{
+  align-items: center;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#contenedor_tec_sup {
+  display: flex;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+#contenedor_tec_cent {
+  display: flex;
+  align-items: center;
+  
+}
+
+#contenedor_tec_sup_texto {
+  padding-left: 10px;
+}
+#contenedor_tec_cent {
+  display: flex;
+}
+/*para combiar por una imgen*/
+#contenedor_tec_sup_boton{
+  border-radius: 30%;
+}
+
+#contenedor_tec_cent_1, #contenedor_tec_cent_2, 
+#contenedor_tec_cent_3 {
+  padding: 0;
+  margin: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
+  text-align: center;
+}
+
+[data-content] {
+  display: none;
+}
+
+.active[data-content] {
+  display: block;
+}
+

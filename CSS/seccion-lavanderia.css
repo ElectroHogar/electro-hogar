@@ -16,56 +16,19 @@
 
 
 /* AQUÍ SE EJECUTA EL ESTILO DE EL ASIDE*/
-.primero{
-  display:inline-block;
-}
-aside{
-  
-  margin-left: 1%;
-  position: relative;
-  list-style: none;
 
-  width: 230px;
-  height: 305px;
 
-  background-color: #24ae63
-}
 
-.tabla_filtro  li{
-  position: relative;
-  list-style: none;
-
-}
-
-.filtro li {
-  padding: 3%;
-
-  font-size: 16px;
-}
-
-.tabla_filtro > li {
-  display: block;
-  color: #fff;
-  font-size: small;
-  text-decoration: none;
-}
-
-.tabla_filtro li label:hover{
-  color: #18683c;
-  transition: all .3s;
-}
-
-.primero{
-  display: flex;
-  color: black;
-}
 .clasificacion_filtro{
-  
+  width: 100%;
+  height: 25px;
+
   text-align: center;
-  background-color:#18683c;
+  background-color:#22844e;
+  color: #fff;
   
 }
-/*AQUÍ SE EJECUTA EL GRIDCONTAINER*/
+/*AQUÍ SE EJECUTA EL GRIDCONTAINER
 
 .dtop1 {
   grid-area: dtop1;
@@ -83,6 +46,7 @@ aside{
   margin-left: 25%;
 }
 
+
 #main-lavan {
   grid-area: main-lavan;
 
@@ -98,7 +62,7 @@ aside{
   grid-area: footer_lavan;
 }
 
-/*AQUI SE EJECUTA ESTILO DE MAIN*/
+AQUI SE EJECUTA ESTILO DE MAIN
 .grid-container {
   display: grid;
   grid-template-areas: 
@@ -122,40 +86,26 @@ aside{
     "footer_lavan footer_lavan";
   }
 }
+*/
 
-#main-lavan {
+#prodc {
   margin: 0;
   padding: 0;
 }
 
 .main-lavan-prodc-img {
-  margin: 0;
   padding: 0;
-
-
-  margin-left: 17%;
+  padding-left: 15%;
 }
 
-#main-lavan-prodc1-2 {
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  margin-left: 7%;
-}
-
-#main-lavan-prodc3-4 {
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  margin-left: 7%;
-}
-
-.prdNuno, .prdNdos, .prdNtres, .prdNcuatro {
+.prodc-smsng {
   
-  margin: 1%;
-  padding: 10px;
+  margin: 0%;
+  padding: 0px;
+
+  margin-left: 11%;
+  padding-left: 2%;
+  margin-top: 1%;
 
   width: 400px;
   height: 400px;
@@ -163,6 +113,41 @@ aside{
  background-color: #fff;
 }
 
+.prodc-lg {
+  margin: 0%;
+  padding: 0px;
+
+  margin-left: 11%;
+  padding-left: 2%;
+  margin-top: 1%;
+
+  width: 400px;
+  height: 400px;
+
+ background-color: #fff;
+}
+
+#aside_lavand {
+  display: grid;
+  grid-template-columns: 
+  "filtro-all filtro-LG filtro-SAMSUNG";
+}
+
+#filtro-SAMSUNG:checked ~ #aside_lavand_prodc_lg .prodc-lg {
+  display: none;
+}
+
+#filtro-LG:checked ~ #aside_lavand_prodc_smsng .prodc-smsng {
+  display: none;
+}
+
+#aside_lavand_prodc_lg {
+  display: flex;
+}
+
+#aside_lavand_prodc_smsng {
+  display: flex;
+}
 
 /*aqui esta el css del espacio de los anunciós */
 .S-A{
@@ -198,3 +183,6 @@ aside{
   max-width: 100%;
   height: auto;
 }
+
+
+

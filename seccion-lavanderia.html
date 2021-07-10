@@ -57,106 +57,80 @@
 
 <section id="titulo_lavan">
   <H1>SECCIÓN LAVANDERÍA</H1>
-</section>
-<hr>  
+</section> 
 <section id="aside_lavand">
-  <aside>
-    <ul class="tabla_filtro">
-      <li><div class="clasificacion_filtro"> Marca</div>
-        <ul class="filtro">
-          <li><input type="checkbox" name="filtro" id="filtro-all">
-            <label for="LG">TODO</label></li>
-          <li><input type="checkbox" name="filtro" id="LG">
-            <label for="LG">LG</label></li>
-          <li><input type="checkbox" name="filtro" id="SAMSUNG">
-            <label for="LG">SAMSUNG</label></li>
-        </ul>
-      </li>
-      <li><div class="clasificacion_filtro">Precio</div>
-        <ul class="filtro">
-          <li><input type="checkbox" name="filtro" id="precio1">
-            <label for="precio1">S/ .1,000.00 - S/.2,000.00</label></li>
-          <li><input type="checkbox" name="filtro" id="precio2">
-            <label for="precio2">S/ .2,001.00 - S/. 3,000.00</label></li>
-          <li><input type="checkbox" name="filtro" id="precio3">
-            <label for="precio3">S/ .3,001.00 - S/. 4,000.00</label></li>
-        </ul>
-      </li>
-      <li><div class="clasificacion_filtro" >Color</div>
-        <ul class="filtro">
-          <li><input type="checkbox" name="filtro" id="color1">
-            <label for="color1">CLARO</label></li>
-          <li><input type="checkbox" name="filtro" id="color1">
-            <label for="color1">OSCURO</label></li>
-        </ul>
-      </li>
-    </ul>
-  </aside>
+  <div class="clasificacion_filtro"> <h3>Marca</h3></div>
+    <input type="radio" name="filtro" id="filtro-all" checked>
+    <label for="todo">TODO</label>
+    <input type="radio" name="filtro" id="filtro-LG">
+    <label for="lg">LG</label>
+    <input type="radio" name="filtro" id="filtro-SAMSUNG">
+    <label for="san">SAMSUNG</label>
+    <div id="aside_lavand_prodc_lg">
+      <div class="prodc-lg">
+        <div class="main-lavan-prodc-img">
+          <a href="/product04.html"> <img src="IMAGEN/lavadora4.jpg" alt="lavadora LG" height="250px" width="250px"></a>
+        </div>
+        <div class="division_imagen_LG">
+          <section class="seccion">
+            <h1>LG</h1>
+            <h2>Lavadora TurboWash 3D</h2>
+            <p class="tarea_1">19 kg / 6MotionDD (2)</p>
+            <p>s/. 1,999 c/u</p>
+            <p>Disponible para despacho</p>
+            <p>Disponible para retiro </p>
+          </section> 
+        </div>
+      </div>
+      <div class="prodc-lg">
+        <div class="main-lavan-prodc-img">
+          <a href="/product03.html"><img src="IMAGEN/lavadora3.jpg" alt="lavadora LG" height="250px" width="250px"></a>
+        </div>
+        <div class="division_imagen_LG">
+          <section class="seccion">
+            <h1>LG</h1>
+            <h2>Lavadora inteligente</h2>
+            <p class="tarea_1">8,5kg / Serie 9(5)</p>
+            <p>s/. 1,230 c/u</p>
+            <p>Disponible para despacho</p>
+            <p>Disponible para retiro </p>
+          </section> 
+        </div>
+      </div>
+    </div>
+    <div id="aside_lavand_prodc_smsng">
+      <div class="prodc-smsng">
+        <div class="main-lavan-prodc-img">
+          <a href="/product01.html"></a><img src="IMAGEN/lavadora1.jpg" alt="lavadora LG" height="250px" width="250px">
+        </div>
+        <section class="seccion">
+          <h1>SAMSUNG</h1>
+          <h2>Secadora SensorDry</h2>
+          <p class="tarea_1">9 kg (4)</p>
+          <p>s/. 2,640 c/u</p>
+          <p>Disponible para despacho</p>
+          <p>Disponible para retiro </p>
+        </section>
+      </div>
+      <div class="prodc-smsng">
+        <div class="main-lavan-prodc-img">
+          <a href="/product02.html"><img src="IMAGEN/lavadora2.jpg" alt="lavadora LG" height="250px" width="250px"></a>        </div>
+        <div class="division_imagen_LG">
+          <section class="seccion">
+            <h1>SAMSUNG</h1>
+            <h2>Lavaseca AddWash™</h2>
+            <p class="tarea_1">20 kg / 12 kg (10)</p>
+            <p>s/.  3,270 c/u</p>
+            <p>Disponible para despacho</p>
+            <p>Disponible para retiro </p>
+          </section> 
+        </div>
+      </div>
+    </div>
 </section>
 
 <section id="main-lavan">
-  <div id="main-lavan-prodc1-2">
-    <div class="prdNuno">
-      <div class="main-lavan-prodc-img">
-        <img src="IMAGEN/lavadora4.jpg" alt="lavadora LG" height="250px" width="250px">
-      </div>
-      <div class="division_imagen_LG">
-        <section class="seccion">
-          <h1>LG</h1>
-          <h2>Lavadora TurboWash 3D</h2>
-          <p class="tarea_1">19 kg / 6MotionDD (2)</p>
-          <p>s/. 1,999 c/u</p>
-          <p>Disponible para despacho</p>
-          <p>Disponible para retiro </p>
-        </section> 
-      </div>
-    </div>
-    <div class="prdNdos" >
-      <div class="main-lavan-prodc-img">
-        <img src="IMAGEN/lavadora1.jpg" alt="lavadora LG" height="250px" width="250px">
-      </div>
-      <section class="seccion">
-        <h1>SAMSUNG</h1>
-        <h2>Secadora SensorDry</h2>
-        <p class="tarea_1">9 kg (4)</p>
-        <p>s/. 2,640 c/u</p>
-        <p>Disponible para despacho</p>
-        <p>Disponible para retiro </p>
-      </section>
-    </div>
-  </div>
-  <div id="main-lavan-prodc3-4">
-    <div class="prdNtres">
-      <div class="main-lavan-prodc-img">
-        <img src="IMAGEN/lavadora3.jpg" alt="lavadora LG" height="250px" width="250px">
-      </div>
-      <div class="division_imagen_LG">
-        <section class="seccion">
-          <h1>LG</h1>
-          <h2>Lavadora inteligente</h2>
-          <p class="tarea_1">8,5kg / Serie 9(5)</p>
-          <p>s/. 1,230 c/u</p>
-          <p>Disponible para despacho</p>
-          <p>Disponible para retiro </p>
-        </section> 
-      </div>
-    </div>
-    <div class="prdNcuatro">
-      <div class="main-lavan-prodc-img">
-        <img src="IMAGEN/lavadora2.jpg" alt="lavadora LG" height="250px" width="250px">
-      </div>
-      <div class="division_imagen_LG">
-        <section class="seccion">
-          <h1>SAMSUNG</h1>
-          <h2>Lavaseca AddWash™</h2>
-          <p class="tarea_1">20 kg / 12 kg (10)</p>
-          <p>s/.  3,270 c/u</p>
-          <p>Disponible para despacho</p>
-          <p>Disponible para retiro </p>
-        </section> 
-      </div>
-    </div>
-  </div>
+  
 </section>
 
 <section class="S-A">
