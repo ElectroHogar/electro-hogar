@@ -193,7 +193,7 @@ body{
 }
 
 .accion-comrpa a {
-  text-decoration: none;
+  text-underline-offset: unset;
 }
 
 /*ofertas personalizadas*/
