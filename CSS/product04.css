@@ -190,11 +190,9 @@ body{
 .accion-compra button:hover{
     color: #1883ba;
     background-color: #ffffff;
+    
 }
 
-.accion-comrpa a {
-  text-underline-offset: unset;
-}
 
 /*ofertas personalizadas*/
 
