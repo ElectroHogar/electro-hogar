@@ -19,78 +19,39 @@
 
 
 
-.clasificacion_filtro{
+.clasificacion_filtro {
   width: 100%;
   height: 25px;
-
   text-align: center;
   background-color:#22844e;
   color: #fff;
-  
-}
-/*AQUÍ SE EJECUTA EL GRIDCONTAINER
-
-.dtop1 {
-  grid-area: dtop1;
 }
 
-#titulo_lavan {
-  grid-area: titulo_lavan;
-}
-
-#aside_lavand {
-  grid-area: aside_lavand;
-
+#filtro-all {
   margin: 0;
-  padding: 0;
-  margin-left: 25%;
+  margin-left: 37%;
 }
 
+#filtro-all__text {
+  background-color: #1fa35b;
+}
 
-#main-lavan {
-  grid-area: main-lavan;
-
-  padding: 0;
+#filtro-LG {
   margin: 0;
+  margin-left: 15px;
 }
 
-.S-A {
-  grid-area: S-A;
+#filtro-LG__text {
+  background-color: #1fa35b;
 }
 
-#footer_lavan {
-  grid-area: footer_lavan;
-}
-
-AQUI SE EJECUTA ESTILO DE MAIN
-.grid-container {
-  display: grid;
-  grid-template-areas: 
-  "dtop1"
-  "titulo_lavan"
-  "aside_lavand"
-  "main-lavan"
-  "S-A"
-  "footer_lavan";
-
-}
-
-@media (min-width: 600px) {
-  .grid-container {
-    grid-template-columns: 340px auto;
-    grid-template-areas:
-    "dtop1 dtop1"
-    "titulo_lavan titulo_lavan"
-    "aside_lavand main-lavan"
-    "S-A S-A"
-    "footer_lavan footer_lavan";
-  }
-}
-*/
-
-#prodc {
+#filtro-SAMSUNG {
   margin: 0;
-  padding: 0;
+  margin-left: 15px;
+}
+
+#filtro-SAMSUNG__text {
+  background-color: #1fa35b;
 }
 
 .main-lavan-prodc-img {
@@ -127,11 +88,6 @@ AQUI SE EJECUTA ESTILO DE MAIN
  background-color: #fff;
 }
 
-#aside_lavand {
-  display: grid;
-  grid-template-columns: 
-  "filtro-all filtro-LG filtro-SAMSUNG";
-}
 
 #filtro-SAMSUNG:checked ~ #aside_lavand_prodc_lg .prodc-lg {
   display: none;
