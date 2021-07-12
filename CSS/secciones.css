@@ -260,11 +260,10 @@ up,p {
 .Contenedor_Empresas {
 
     margin-top: 5px;
-    border: 2px solid #000;
 
     background-image: url(/IMAGEN/fondo_empresas.jpg);
     background-size: cover;
-    border: 1PX solid #0000;
+    border: 5px solid #0000;
     
     height: 600px;
     width: 100%;
@@ -287,7 +286,7 @@ up,p {
 
 .division1 h2 {
     padding: auto;
-    padding-top: 2%;
+    padding-top: 5%;
     font-family: sans-serif;
     font-size: 30px;
 }
@@ -303,10 +302,8 @@ up,p {
     font-family: sans-serif;
     font-size: 15px;
 
-    padding: auto;
-    padding-right: 18%;
-    
-  }
+    padding: auto;    
+}
 
   /*secion de productos*/
 
