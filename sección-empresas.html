@@ -9,7 +9,32 @@
     <link rel="stylesheet" href="CSS/dis_empresas.css">
     <link rel="shortcut icon" href="IMAGEN/logo png.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
-        <title>Electro Hogar</title>
+    <title>Electro Hogar</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    <script src="JS/comentarios.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyBZ5OgGkaqnazFsYF0fEwIlViYwW0yzTxk",
+        authDomain: "comentarioslav.firebaseapp.com",
+        projectId: "comentarioslav",
+        storageBucket: "comentarioslav.appspot.com",
+        messagingSenderId: "629422068566",
+        appId: "1:629422068566:web:e919ffbcdab2a6a895fcf7",
+        measurementId: "G-W4PNZL2SBE"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    
+
 </head>
 <body>
     <header class="dtop1">
@@ -96,9 +121,14 @@
                 </ul>
             </div>
         </div>
-        <div class="opiniones">
+        <div class="opiniones" onload="javascript:cargarInicio()">
             <h2>Cuentanos tu experiencia con nuestros productos:</h2>
-            <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="60%" data-numposts="2"></div>
+            <form action="" id="MiComentario">
+                <label for="nombre opiniones">Nombre:</label>
+                <input type="text" name="nombre" id="nombre"><br>
+                <textarea name="opiniones" id="opiniones" cols="100%" rows="5"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
             
         </div>
     </article>
