@@ -4,22 +4,33 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .empresas{
     margin: auto;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px; 
     display: flexbox;
     flex-wrap: wrap;
+    background-color: ghostwhite;
 }
 
 .empresas  p {
     text-align: justify;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 .empresas  h2{
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .opiniones textarea{
@@ -30,6 +41,23 @@
 .multimedia {
     border-bottom: 5px solid #666;
     align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.sugerencia h3{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sugerencia b{
+    color: #666;
 }
 
 .sugerencia li{
@@ -37,8 +65,34 @@
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.sugerencia img{
+    padding: auto;
+    padding-left: 10%;
 }
 /*comentarios*/
 .opiniones{
     border-top: 5px solid #666;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius:20px;
+}
+
+.boton_subir{
+    background-color: hsl(170, 62%, 24%); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 2rem;
+    cursor: pointer;
 }
