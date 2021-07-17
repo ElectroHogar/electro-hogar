@@ -262,7 +262,7 @@ up,p {
 
     margin-top: 5px;
 
-    background-image: url(IMAGEN/fondo_empresas.jpg);
+    background-image: url(../IMAGEN/fondo_empresas.jpg);
     background-size: cover;
     border: 5px solid #0000;
     
