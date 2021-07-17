@@ -49,6 +49,7 @@ body{
     font-size: 12px;
     text-align: center;
     color: #000;
+    
 }
 .cabecera-der{
     flex: 60%;
@@ -59,7 +60,7 @@ body{
     padding-top: 3px;
     padding-left: 60px;
     padding-bottom: 0;
-
+    display: none;
     text-align: center;
 }
 nav{
