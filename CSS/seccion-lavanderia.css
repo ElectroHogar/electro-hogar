@@ -99,10 +99,12 @@
 
 #aside_lavand_prodc_lg {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #aside_lavand_prodc_smsng {
   display: flex;
+  flex-wrap: wrap;
 }
 
 /*aqui esta el css del espacio de los anunciós */
@@ -111,7 +113,8 @@
   margin-top: 10px;
 }
 .prueba{
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
