@@ -257,6 +257,7 @@ up,p {
 
 }
 
+
 .Contenedor_Empresas {
 
     margin-top: 5px;
@@ -265,7 +266,7 @@ up,p {
     background-size: cover;
     border: 5px solid #0000;
     
-    height: 600px;
+    height: 95%;
     width: 100%;
 }
 
@@ -274,14 +275,16 @@ up,p {
     color: #000;
 
     height: 315px;
+    
     width: 600px;
 
     text-align: center;
 
     margin: auto;
-    margin-left: 30%;
-    margin-top: 11%;
-    margin-right: 25%;
+    
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
 }
 
 .division1 h2 {
